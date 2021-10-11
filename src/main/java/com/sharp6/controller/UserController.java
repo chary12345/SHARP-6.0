@@ -23,6 +23,7 @@ public class UserController {
 		String[] split = user.getEmail().split("@");
 		user.setUserId(split[0]);
 		UserMaster registerObj = userService.newUserRegister(user);
+		System.out.println("object registerd in db succesfully");
 		System.out.println("changes");
 		if(registerObj!=null) {
 			resultMap.put("status", "success");
