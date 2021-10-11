@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.sharp6.entity.UserMaster;
 
 @Repository
-public interface UserRepository  extends JpaRepository<UserMaster, String>{
+public interface UserRepositoryy  extends JpaRepository<UserMaster, String>{
 
 }

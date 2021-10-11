@@ -3,11 +3,11 @@ package com.sharp6.service;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.sharp6.entity.UserMaster;
-import com.sharp6.repostorys.UserRepository;
+import com.sharp6.repostorys.UserRepositoryy;
 
-public class UserserviceImpl implements UserService {
+public class UserserviceImplemantation implements UserService {
 	@Autowired
-	UserRepository userdao;
+	UserRepositoryy userdao;
 
 	@Override
 	public UserMaster newUserRegister(UserMaster user) {
